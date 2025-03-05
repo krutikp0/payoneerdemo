@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/payoneer")
-@CrossOrigin(origins = "*")  // Allow Vue.js frontend to access this API
+@CrossOrigin(origins = "*")  
 public class PayoneerController {
 
     private final PayoneerService payoneerService;
