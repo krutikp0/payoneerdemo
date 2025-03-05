@@ -47,7 +47,6 @@ public class PayoneerService {
     }
 
     private String getAccessToken() {
-        // Simulating an access token (in real case, get it from Payoneer)
-        return "YOUR_ACCESS_TOKEN";
+        return "ACCESS_TOKEN";
     }
 }
